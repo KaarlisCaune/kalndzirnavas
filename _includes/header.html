@@ -1,16 +1,22 @@
-<h1>Header!</h1>
+<header>
+    <a class="logo" href="{% if site.lang == 'lv' %}/{% else %}/{{site.lang}}/{% endif %}"><img src="/assets/logo_lv.svg" alt="Kalndzirnavas"></a>
 
-{% include menu.html %}
+    {% include menu.html %}
 
-<hr>
-{% if page.namespace %}
+    <nav class="language-switch">
+        {% if page.namespace %}
+        <ul>
+            <li><a {% if site.lang == "lv" %}class="active"{% endif %} href="{% tl {{ page.namespace }} lv %}" hreflang="lv" lang="lv">{% t langs.lv %}</a></li>
+            <li><a {% if site.lang == "en" %}class="active"{% endif %} href="{% tl {{ page.namespace }} en %}" hreflang="en" lang="en">{% t langs.en %}</a></li>
+            <li><a {% if site.lang == "ee" %}class="active"{% endif %} href="{% tl {{ page.namespace }} ee %}" hreflang="et" lang="et">{% t langs.ee %}</a></li>
+        </ul>
+        {% else %}
+        <ul>
+            <li><a {% if site.lang == "lv" %}class="active"{% endif %} href="/" hreflang="lv" lang="lv">{% t langs.lv %}</a></li>
+            <li><a {% if site.lang == "en" %}class="active"{% endif %} href="/en/" hreflang="en" lang="en">{% t langs.en %}</a></li>
+            <li><a {% if site.lang == "ee" %}class="active"{% endif %} href="/ee/" hreflang="et" lang="et">{% t langs.ee %}</a></li>
+            {% endif %}
+        </ul>
+    </nav>
 
-<a {% if site.lang == "lv" %}class="active"{% endif %} href="{% tl {{ page.namespace }} lv %}">{% t langs.lv %}</a>
-<a {% if site.lang == "en" %}class="active"{% endif %} href="{% tl {{ page.namespace }} en %}">{% t langs.en %}</a>
-<a {% if site.lang == "ee" %}class="active"{% endif %} href="{% tl {{ page.namespace }} ee %}">{% t langs.ee %}</a>
-{% else %}
-<a {% if site.lang == "lv" %}class="active"{% endif %} href="/">{% t langs.lv %}</a>
-<a {% if site.lang == "en" %}class="active"{% endif %} href="/en/">{% t langs.en %}</a>
-<a {% if site.lang == "ee" %}class="active"{% endif %} href="/ee/">{% t langs.ee %}</a>
-{% endif %}
-<hr>
+</header>

@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    .logo {
+        max-width: 300px;
+        display: block;
+        img {
+            min-width: 300px;
+        }
+    }
+    .site-menu {
+        ul {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin-right: 2em;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                }
+                .active {
+                    font-weight: bold;
+                    border-bottom: 3px solid $accent;
+                }
+            }
+        }
+    }
+    .language-switch {
+        margin-left: auto;
+        ul {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-size: 0.75em;
+                }
+                .active {
+                    font-weight: bold;
+                    border-bottom: 3px solid $accent;
+                }
+            }
+        }
+    }
+}

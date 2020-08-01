@@ -1,6 +1,8 @@
-<nav>
-    <li><a {% if page.namespace == "history" %}class="active"{% endif %}href="{% tl history %}">{% t pages.history %}</a></li>
-    <li><a {% if page.namespace == "about_mill" %}class="active"{% endif %}href="{% tl about_mill %}">{% t pages.about_mill %}</a></li>
-    <li><a {% if page.namespace == "how_to_find" %}class="active"{% endif %}href="{% tl how_to_find %}">{% t pages.how_to_find %}</a></li>
-    <li><a {% if page.namespace == "contact" %}class="active"{% endif %}href="{% tl contact %}">{% t pages.contact %}</a></li>
+<nav class="site-menu">
+    <ul>
+        <li><a {% if page.namespace == "history" %}class="active"{% endif %}href="{% tl history %}">{% t pages.history %}</a></li>
+        <li><a {% if page.namespace == "about_mill" %}class="active"{% endif %}href="{% tl about_mill %}">{% t pages.about_mill %}</a></li>
+        <li><a {% if page.namespace == "how_to_find" %}class="active"{% endif %}href="{% tl how_to_find %}">{% t pages.how_to_find %}</a></li>
+        <li><a {% if page.namespace == "contact" %}class="active"{% endif %}href="{% tl contact %}">{% t pages.contact %}</a></li>
+    </ul>
 </nav>
