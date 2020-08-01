@@ -1,5 +1,8 @@
 # kalndzirnavas.lv
 
+See it live:
+[kaarliscaune.github.io/kalndzirnavas/](https://kaarliscaune.github.io/kalndzirnavas/)
+
 ## Set up
 
 * Make sure you have [jekyll and ruby set up](https://jekyllrb.com/docs/)
