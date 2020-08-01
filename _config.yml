@@ -48,5 +48,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-languages: ["lv", "en", "ee"]
+languages: ["lv", "en", "et"]
 exclude_from_localizations: ["assets"]
