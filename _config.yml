@@ -22,7 +22,7 @@ title: Kalndzirnavas
 email: kalndzirnavas@gmail.com
 description: Skatu vieta Kalndzirnavas
   
-baseurl: ""
+baseurl: /kalndzirnavas
 url: ""
 
 # Build settings
@@ -49,4 +49,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 languages: ["lv", "en", "et"]
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets", "README.md"]

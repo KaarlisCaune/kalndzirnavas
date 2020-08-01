@@ -16,4 +16,6 @@ Default language is `lv`. You can change and add translations / content in `_i18
 
 ## Publishing
 
-The static site is built in `_site` folder. Since the website is hosted on Github pages but uses a plugin not supported by Github, to publish the site you also need to add the build folder to commits (Github won't build it for you).
+The static site is built in `_site` folder. Since the website is hosted on Github pages but uses a plugin not supported by Github, to publish the site you need to push the `_site` folder to a separate branch `gh-pages`, i.e.
+
+`git subtree push --prefix dist origin gh-pages`
