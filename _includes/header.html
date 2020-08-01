@@ -1,0 +1,16 @@
+<h1>Header!</h1>
+
+{% include menu.html %}
+
+<hr>
+{% if page.namespace %}
+
+<a {% if site.lang == "lv" %}class="active"{% endif %} href="{% tl {{ page.namespace }} lv %}">{% t langs.lv %}</a>
+<a {% if site.lang == "en" %}class="active"{% endif %} href="{% tl {{ page.namespace }} en %}">{% t langs.en %}</a>
+<a {% if site.lang == "ee" %}class="active"{% endif %} href="{% tl {{ page.namespace }} ee %}">{% t langs.ee %}</a>
+{% else %}
+<a {% if site.lang == "lv" %}class="active"{% endif %} href="/">{% t langs.lv %}</a>
+<a {% if site.lang == "en" %}class="active"{% endif %} href="/en/">{% t langs.en %}</a>
+<a {% if site.lang == "ee" %}class="active"{% endif %} href="/ee/">{% t langs.ee %}</a>
+{% endif %}
+<hr>

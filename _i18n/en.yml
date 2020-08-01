@@ -1,0 +1,13 @@
+global:
+  skatu_vieta: Viewing spot
+  description: Kalndzirnavas is a beautiful place in Burtnieki
+pages:
+  home: Kalndzirnavas
+  history: History
+  about_mill: About Kalndzirnavas
+  how_to_find: Location
+  contact: Contact
+langs:
+  lv: Latviski
+  en: English
+  ee: Eesti

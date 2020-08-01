@@ -1,0 +1,13 @@
+global:
+  skatu_vieta: Skatu vieta
+  description: Kalndzirnavas ir skatu vieta Burtniekos.
+pages:
+  home: Kalndzirnavas
+  history: Vēsture
+  about_mill: Par Kalndzirnavām
+  how_to_find: Kā nokļūt
+  contact: Saziņa
+langs:
+  lv: Latviski
+  en: English
+  ee: Eesti

@@ -1,0 +1,13 @@
+global:
+  skatu_vieta: eesti translation for skatu vieta
+  description: Kalndzirnavas eesti translation
+pages:
+  home: Kalndzirnavas
+  history: Ajalugu
+  about_mill: Kalndzirnavas kohta
+  how_to_find: Asukoht
+  contact: Kontakt
+langs:
+  lv: Latviski
+  en: English
+  ee: Eesti
