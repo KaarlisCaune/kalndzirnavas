@@ -18,6 +18,6 @@ Default language is `lv`. You can change and add translations / content in `_i18
 
 The static site is built in `_site` folder. Since the website is hosted on Github pages but uses a plugin not supported by Github, to publish the site you need to push the `_site` folder to a separate branch `gh-pages`, i.e.
 
-`git subtree push --prefix dist origin gh-pages`
+`git subtree push --prefix _site origin gh-pages`
 
 For the site to be visible on Github pages, `baseurl` is set to `kalndzirnavas` right now. That won't be necessary when an actual domain is used.
