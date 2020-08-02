@@ -11,11 +11,19 @@ See it live:
 * `bundle exec jekyll serve`
 * Visit `localhost:4000/kalndzirnavas/`
 
-## Adding content
+## Localisation
 
 [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin) is used for localisation.
 
 Default language is `lv`. You can change and add translations / content in `_i18n` folder either by modifying `language.yml` files or .md files in `_i18n/language/page/filename.md`.
+
+To translate a string, add it in `language.yml` and use this in the template:
+
+`{% t group.key %}`
+
+Similarly you can add whole translated .md files:
+
+`{% translate_file page/about.md %}`
 
 ## Publishing
 
