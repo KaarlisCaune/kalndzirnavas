@@ -1,6 +1,6 @@
 # Kalndzirnavas
 
-Šis ir parauga teksts par Kalndzirnavām. Te var likt [linkus](www.google.com), veidot sarakstus utt.
+Šis ir parauga teksts par Kalndzirnavām. Te var likt [linkus](https://www.google.com), veidot sarakstus utt.
 
 * ezers
 * skaisti skati

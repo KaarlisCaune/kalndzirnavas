@@ -2,6 +2,6 @@
 
 See on kurrat tekstid. Eesti [link](www.google.com) ja terviseks.
 
-* jarve
+* jarv
 * karbonaad 
-* pferden
+* hobune

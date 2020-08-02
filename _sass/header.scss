@@ -1,3 +1,5 @@
+@import "breakpoints";
+
 header {
     display: flex;
     .logo {
@@ -6,13 +8,22 @@ header {
         img {
             min-width: 300px;
         }
+        @include respond(mobile) {
+            max-width: 200px;
+            img {
+                min-width: 200px;
+            }
+        }
     }
     .site-menu {
+        margin-top: auto;
         ul {
             list-style-type: none;
             display: flex;
+            margin-bottom: 0;
             li {
-                margin-right: 2em;
+                margin-left: 1em;
+                margin-right: 1em;
                 a {
                     text-decoration: none;
                     color: $black;
@@ -22,13 +33,26 @@ header {
                     border-bottom: 3px solid $accent;
                 }
             }
+            @include respond(tablet) {
+                padding-left: 0;
+            }
+            @include respond(mobile) {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 0;
+                li {
+                    margin-top: 1em;
+                }
+            }
         }
     }
     .language-switch {
         margin-left: auto;
+        margin-top: auto;
         ul {
             list-style-type: none;
             display: flex;
+            margin-bottom: 0;
             li {
                 margin-left: 0.5em;
                 margin-right: 0.5em;
@@ -42,6 +66,19 @@ header {
                     border-bottom: 3px solid $accent;
                 }
             }
+            @include respond(mobile) {
+                margin-top: 1em;
+            }
         }
+        @include respond(tablet) {
+            margin-left: 0;
+            ul {
+                padding-left: 0;
+            }
+        }
+    }
+    @include respond(tablet) {
+        flex-direction: column;
+        align-items: center;
     }
 }
