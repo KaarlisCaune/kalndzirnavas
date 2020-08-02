@@ -2,6 +2,8 @@
 /* Setup */
 html { font-family: 'Mulish', sans-serif; font-size: 125%; -webkit-font-smoothing: antialiased; }
 
+@media only screen and (max-width: 700px) { html { font-size: 100%; } }
+
 p { line-height: 1.5rem; margin-top: 1.5rem; margin-bottom: 0; color: #1E1B19; }
 
 ul, ol { margin-top: 1.5rem; margin-bottom: 1.5rem; }
@@ -14,7 +16,7 @@ blockquote { line-height: 1.5rem; margin-top: 1.5rem; margin-bottom: 1.5rem; col
 
 h1, h2, h3, h4, h5, h6 { font-family: 'News Cycle', sans-serif; margin-top: 1.5rem; margin-bottom: 0; line-height: 1.5rem; color: #1E1B19; }
 
-h1 { font-size: 4.242rem; line-height: 4.5rem; margin-top: 3rem; }
+h1 { font-size: 3.535rem; line-height: 4.5rem; margin-top: 3rem; }
 
 h2 { font-size: 2.828rem; line-height: 3rem; margin-top: 3rem; }
 
@@ -34,17 +36,25 @@ header .logo { max-width: 300px; display: block; }
 
 header .logo img { min-width: 300px; }
 
-header .site-menu ul { list-style-type: none; display: flex; }
+@media only screen and (max-width: 700px) { header .logo { max-width: 200px; } header .logo img { min-width: 200px; } }
 
-header .site-menu ul li { margin-right: 2em; }
+header .site-menu { margin-top: auto; }
+
+header .site-menu ul { list-style-type: none; display: flex; margin-bottom: 0; }
+
+header .site-menu ul li { margin-left: 1em; margin-right: 1em; }
 
 header .site-menu ul li a { text-decoration: none; color: #1E1B19; }
 
 header .site-menu ul li .active { font-weight: bold; border-bottom: 3px solid #e4d9c9; }
 
-header .language-switch { margin-left: auto; }
+@media only screen and (max-width: 1200px) { header .site-menu ul { padding-left: 0; } }
 
-header .language-switch ul { list-style-type: none; display: flex; }
+@media only screen and (max-width: 700px) { header .site-menu ul { flex-direction: column; align-items: center; margin-top: 0; } header .site-menu ul li { margin-top: 1em; } }
+
+header .language-switch { margin-left: auto; margin-top: auto; }
+
+header .language-switch ul { list-style-type: none; display: flex; margin-bottom: 0; }
 
 header .language-switch ul li { margin-left: 0.5em; margin-right: 0.5em; }
 
@@ -52,11 +62,19 @@ header .language-switch ul li a { text-decoration: none; color: #1E1B19; font-si
 
 header .language-switch ul li .active { font-weight: bold; border-bottom: 3px solid #e4d9c9; }
 
-html, body { height: 100%; }
+@media only screen and (max-width: 700px) { header .language-switch ul { margin-top: 1em; } }
+
+@media only screen and (max-width: 1200px) { header .language-switch { margin-left: 0; } header .language-switch ul { padding-left: 0; } }
+
+@media only screen and (max-width: 1200px) { header { flex-direction: column; align-items: center; } }
+
+html, body { height: 100%; background-color: #f9f9f9; margin: 0; }
 
 body { display: flex; flex-direction: column; }
 
 main, header, footer { width: 1200px; max-width: 1200px; margin: 0 auto; padding: 24px; box-sizing: border-box; }
+
+@media only screen and (max-width: 1200px) { main, header, footer { width: 100%; max-width: 100%; } }
 
 main { flex: 1 0 auto; }
 
