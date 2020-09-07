@@ -1,0 +1,1 @@
+Burtnieku vējdzirnavas - Kalndzirnavas - atrodas Ziemeļvidzemē, Burtnieku pagasta Dzirnavu kalnā. Pie dzirnavām atrodas labiekārtota skatu vieta, no kuras paveras skaists skats uz Burtnieku ezeru.

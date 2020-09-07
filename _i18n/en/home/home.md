@@ -1,0 +1,1 @@
+Burtnieki windmill - Kalndzirnavas - is located in Northern Vidzeme, on a hill in Burtnieki parish. There is a scenic sightseeing spot next to the mill, where you can see the lake Burtnieks.

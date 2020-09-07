@@ -30,4 +30,7 @@ main {
 
 footer {
     flex-shrink: 0;
+    p {
+        opacity: 0.5;
+    }
 }

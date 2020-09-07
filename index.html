@@ -2,7 +2,15 @@
 layout: page
 title: pages.home
 ---
-<h2>Page content!</h2>
-<p>{% t global.skatu_vieta %}</p>
 
-<a href="{% tl history %}">{% t pages.history%}</a>
+<h1>Kalndzirnavas</h1>
+
+{% translate_file home/home.md %}
+
+<div class="homepage-links">
+    <a href="{% tl how_to_find %}" class="location"><span>{% t home_page.how_to_find_description %}</span></a>
+    <a href="{% tl history %}" class="history"><span>{% t home_page.history_description %}</span></a>
+    <a href="{% tl association %}" class="association"><span>{% t home_page.association_description %}</span></a>
+</div>
+
+<h2>{% t home_page.photo_gallery %}</h2>

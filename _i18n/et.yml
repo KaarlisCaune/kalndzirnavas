@@ -4,10 +4,14 @@ global:
 pages:
   home: Kalndzirnavas
   history: Ajalugu
-  about_mill: Kohtast
   how_to_find: Asukoht
-  contact: Kontakt
+  association: Ühing
 langs:
   lv: Latviski
   en: English
   et: Eesti
+home_page:
+  history_description: Get to know the mills Ajalugu
+  how_to_find_description: Kus on Kalndzirnavas?
+  association_description: Ühing “Kalndzirnavas”
+  photo_gallery: Fotogalerii

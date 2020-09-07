@@ -4,10 +4,14 @@ global:
 pages:
   home: Kalndzirnavas
   history: Vēsture
-  about_mill: Par Kalndzirnavām
   how_to_find: Kā nokļūt
-  contact: Saziņa
+  association: Biedrība
 langs:
   lv: Latviski
   en: English
   et: Eesti
+home_page:
+  history_description: Iepazīstiet Kalndzirnavu vēsturi cauri gadsimtiem!
+  how_to_find_description: Kā nokļūt?
+  association_description: Biedrība “Kalndzirnavas”
+  photo_gallery: Fotogalerija

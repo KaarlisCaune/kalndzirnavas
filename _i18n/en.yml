@@ -4,10 +4,14 @@ global:
 pages:
   home: Kalndzirnavas
   history: History
-  about_mill: About
   how_to_find: Location
-  contact: Contact
+  association: Association
 langs:
   lv: Latviski
   en: English
   et: Eesti
+home_page:
+  history_description: Get to know the mills history!
+  how_to_find_description: How to get here?
+  association_description: Association “Kalndzirnavas”
+  photo_gallery: Photo gallery
