@@ -3,6 +3,8 @@ layout: page
 title: pages.home
 ---
 
+<div class="header-img"></div>
+
 {% translate_file home/home.md %}
 
 <div class="homepage-links">
@@ -11,4 +13,14 @@ title: pages.home
     <a href="{% tl association %}" class="association"><span>{% t home_page.association_description %}</span></a>
 </div>
 
-<h2>{% t home_page.photo_gallery %}</h2>
+<h2 class="text-center">{% t home_page.photo_gallery %}</h2>
+
+<div class="photo-gallery">
+    {% for num in (1..12) %}
+        <a data-fslightbox href="{{ site.baseurl_root }}/assets/gallery/{{ forloop.index }}.jpg">
+            <img src="{{ site.baseurl_root }}/assets/gallery/thumbs/{{ forloop.index }}.jpg">
+        </a>
+    {% endfor %}
+</div>
+
+<script src="js/fslightbox.js"></script>

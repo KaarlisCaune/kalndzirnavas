@@ -11,4 +11,4 @@ plugins:
 exclude:
   - README.md
 languages: ["lv", "en", "et"]
-exclude_from_localizations: ["assets", "css", "README.md"]
+exclude_from_localizations: ["assets", "css", "js", "README.md"]
