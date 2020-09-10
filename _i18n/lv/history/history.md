@@ -1,15 +1,13 @@
-<p>Par Burtnieku vējdzirnavu cēlājiem precīzu ziņu nav, tomēr ir ticams, ka esošās mūra vējdzirnavas celtas 1814.  gadā. Šis gada skaitlis bijis iekalts vēja rādītājā un uzrakstīts uz dzīvojamās mājas ārdurvīm.
-Dzirnavu kalnā vējdzirnavas bijušas arī pirms esošajām mūra vējdzirnavām. Visdrīzāk tās bija koka balststaba vējdzirnavas, kādas cēla attiecīgajā laikā Latvijas teritorijā.
-Līdz 19. gs. vidum dzirnavu celšanas privilēģija laukos piederēja muižām. Dzirnavas vadīja vai nu algoti muižas melderi, vai arī tās bija iznomātas.</p>
-
-<p>Hermaņa Enzeliņa grāmatā “Skati Valmieras pilsētas, draudzes un novada pagātnē” atrodamas atsevišķas norādes par melderiem, un līdz ar to par dzirnavām Burtnieku muižā:</p>
-
-<p><i>1724. gada vaku grāmatā par burtnieciešiem pie Ciemfeldas līdzās Garklāvam, Pencim un Meldūkai (līdz mūsdienām saglabājušies tuvākās apkārtnes vietvārdi) minēta “Dzirnavu zeme”.</i></p>
-
-<p>Tas ļauj secināt, ka Burtnieku pilsmuižas vējdzirnavas atradās Dzirnavu kalnā, kas arī saprotams, jo Dzirnavu kalns ir apkārtnē augstākā un vējiem bagātākā vieta.</p><br><br>
+<p>Esošās mūra holandiešu tipa vējdzirnavas celtas 1814. gadā. Šis gada skaitlis bijis iekalts vēja rādītājā un uzrakstīts uz dzīvojamās mājas ārdurvīm. Par Burtnieku vējdzirnavu cēlājiem gan precīzu ziņu nav. Visdrīzāk Dzirnavu kalnā vējdzirnavas bijušas arī pirms esošajām mūra vējdzirnavām. Domājams, tās bija koka balststaba vējdzirnavas, kādas cēla attiecīgajā laikā Latvijas teritorijā</p>
 
 <section>
 <div class="time-period">1738 – 1839</div>
+<p>Līdz 19. gs. vidum dzirnavu celšanas privilēģija laukos piederēja muižām. Dzirnavas vadīja vai nu algoti muižas melderi, vai arī tās bija iznomātas.</p>
+<p>Hermaņa Enzeliņa grāmatā “Skati Valmieras pilsētas, draudzes un novada pagātnē” atrodamas atsevišķas norādes par melderiem, un līdz ar to par dzirnavām Burtnieku muižā:</p>
+<p><i>1724. gada vaku grāmatā par burtnieciešiem pie Ciemfeldas līdzās Garklāvam, Pencim un Meldūkai (līdz mūsdienām saglabājušies tuvākās apkārtnes vietvārdi) minēta “Dzirnavu zeme”.</i></p>
+
+<p>Tas ļauj secināt, ka Burtnieku pilsmuižas vējdzirnavas atradās Dzirnavu kalnā, kas arī saprotams, jo Dzirnavu kalns ir apkārtnē augstākā un vējiem bagātākā vieta.</p>
+
 <p>1738. gadā vaku grāmatā Ciemzeldā minēts Pilsmelderu Jēkabs. </p>
 
 <p>1795. gadā “dvēseļu revīzija” sniedz ziņas, ka Burtnieku pilsmuižas zemnieku sastāvā ir pils melderis Toms.</p>
@@ -37,7 +35,11 @@ Līdz 19. gs. vidum dzirnavu celšanas privilēģija laukos piederēja muižām.
 
 <img src="../assets/images/1849.jpg">
 
-<p>Pirmā zināmā dzirnavu restaurācija notikusi 1849.gadā, to veicis vācu meistars Freimanis. Par to bija rakstīts uz dzirnavu sijas, kura tika paglābta 80to gadu pārbūves laikā. Vēlāk būvmeistara Freimaņa mantinieki aizveda vēsturisko sijas fragmentu uz Vāciju, dzirnavās šobrīd ir uzraksta kopija.</p>
+<p>Pirmā zināmā dzirnavu restaurācija notikusi 1849. gadā, to veicis vācu meistars Andreas Gustavs Freimanis. Par to bija rakstīts uz dzirnavu sijas, kura tika paglābta 80to gadu pārbūves laikā. Vēlāk būvmeistara Freimaņa mantinieki aizveda vēsturisko sijas fragmentu uz Vāciju, dzirnavās šobrīd ir uzraksta kopija.</p>
+
+<img class="article-image narrow" src="../assets/images/freimanis.jpg" alt="Andreas Gustavs Freimanis">
+
+<p><i>Andreas Gustav Freimann 1803-1890</i></p>
 
 </section>
 
@@ -45,23 +47,35 @@ Līdz 19. gs. vidum dzirnavu celšanas privilēģija laukos piederēja muižām.
 <div class="time-period">1900 – 1940</div>
 <p>20. gadsimta sākumā līdz ar agrāro reformu īpašumi no muižu un baronu rokam nonāca Valsts un privāto īpašnieku rokās. Par Kalndzirnavu īpašnieku kļuva Mārcis Zolte.</p>
 
-<p>Ap 1925. gadu dzirnavās sāka saimniekot latvietis Roberts Ozolants. Viņam bija jāsāk ar pamatīgu restaurāciju: jāliek jumts, spārni, jāveic iekšējie izbūves darbi. Viņam bija drosme to visu uzsākt, jo prasmes un interesi par dažādiem mehānismiem Roberts bija guvis jau jaunības gados, mācoties pie dažādiem meistariem un vadot pirmo kuļmašīnu Burtniekos.
-Pēc vairāku gadu ilgas atjaunošanas dzirnavās atkal varēja malt graudus. Dzirnavās bija divi ganģi - mala rupjus miltus un putraimus.</p>
+<p>Ap 1925. gadu dzirnavās sāka saimniekot latvietis Roberts Ozolants.</p>
+
+<img class="article-image narrow" src="../assets/images/roberts_ozolants.jpg" alt="Roberts Ozolants">
+
+<p><i>Roberts Ozolants 1890-1967</i></p>
+
+<p>Viņam bija jāsāk ar pamatīgu restaurāciju: jāliek jumts, spārni, jāveic iekšējie izbūves darbi. Viņam bija drosme to visu uzsākt, jo prasmes un interesi par dažādiem mehānismiem Roberts bija guvis jau jaunības gados, mācoties pie dažādiem meistariem un vadot pirmo kuļmašīnu Burtniekos. Pēc vairāku gadu ilgas atjaunošanas dzirnavās atkal varēja malt graudus. Dzirnavās bija divi ganģi - mala rupjus miltus un putraimus.</p>
 
 <img src="../assets/images/1920.jpg">
 
 <p>Dzirnavu vadīšana prasīja plašas zināšanas un meistarību. Melderim bija ne tikai jātiek galā ar malšanu – graudu pieņemšanu, vēja savaldīšanu, utt., bet arī pilnībā jāpārzina dzirnavu mehānismi, lai tos uzturētu ejošus un pie iespējas pilnveidotu. Roberts Ozolants nepieciešamās metāla detaļas kala pie mājām esošajā smēdē. Viņš pats prata asināt dzirnakmeņus un uzliet dzirnakmeņiem jaunu malšanas kārtu (masa tika vārīta dzīvojamās mājas virtuvē). Roberts pārzināja arī koka darbus. Milzu spēku prasīja jaunu spārnu izgatavošana un uzstādīšana.</p>
 
-<p>Kā savā grāmatā “Senās vējdzirnavas” (Rīga, “Zinātne”, 1987.)apraksta R. Puriņš, meldera amatu varētu salīdzināt ar matroža darbu uz burinieka. Vējā jāuzvelk buras un var malt bez atpūtas-dienu un nakti, darbdienās un pat svētdienās. Turklāt  vienmēr, it sevišķi rudeņos, bija jāvēro, vai netuvojas viesulis. Cīņa  ar vēja kaprīzēm, salijušām un pat sasalušām burām, darbs caurvējā, ziemas aukstumā nebija retums, tomēr, ja dzirnavas bija kārtībā,melderim bija patīkami sagaidīt malējus, gan pavadīt tos, kas ar miltu maisiem brauca projām.</p>
+<p>Kā savā grāmatā “Senās vējdzirnavas” (Rīga, “Zinātne”, 1987.) apraksta R. Puriņš, meldera amatu varētu salīdzināt ar matroža darbu uz burinieka. Vējā jāuzvelk buras un var malt bez atpūtas – dienu un nakti, darbadienās un pat svētdienās. Turklāt vienmēr, it sevišķi rudeņos, bija jāvēro, vai netuvojas viesulis. Cīņa ar vēja kaprīzēm, salijušām un pat sasalušām burām, darbs caurvējā, ziemas aukstumā nebija retums, tomēr, ja dzirnavas bija kārtībā,melderim bija patīkami sagaidīt malējus, gan pavadīt tos, kas ar miltu maisiem brauca projām.</p>
 
-<p>Lai iegūtu dzirnavas savā īpašumā, Ozolantu ģimenei bijis jāņem 5000 Ls kredīts Zemes bankā. To atmaksāt nenācās viegli. Līdzās dzirnavu vadīšanai Roberts Ozolants darījis dažādus darbus – bijis autobusa šoferis, strādājis gaterī utt.). Darba netrūka arī savā saimniecībā. Tie pārsvarā gūlās uz dzīvesbiedres Leontīnes Ozolantes pleciem. Ģimenē auga 5 bērni, kas dzīves un darba sūrumu izbaudīja jau no agras bērnības. Tomēr staltās dzirnavas bija visas dzimtas lepnums. Vēl sirmā vecumā Leontīne bieži kavējās tajos laikos, kad dzirnavu spārni griezās dūkdami, pagalmu pildīja pajūgi un uz malšanu sabraukušo saimnieku runas un stāsti.</p>
+<p>Lai iegūtu dzirnavas savā īpašumā, Ozolantu ģimenei bijis jāņem 5000 Ls kredīts Zemes bankā. To atmaksāt nenācās viegli. Līdzās dzirnavu vadīšanai Roberts Ozolants darījis dažādus darbus – bijis autobusa šoferis, strādājis gaterī utt.). Darba netrūka arī savā saimniecībā. Tie pārsvarā gūlās uz dzīvesbiedres Leontīnes Ozolantes pleciem. Ģimenē auga 5 bērni, kas dzīves un darba sūrumu izbaudīja jau no agras bērnības. Tomēr staltās dzirnavas bija visas dzimtas lepnums.</p>
+
+<img class="article-image" src="../assets/images/dzirnavas_zirgs.jpg">
+
+<p>Vēl sirmā vecumā Leontīne bieži kavējās tajos laikos, kad dzirnavu spārni griezās dūkdami, pagalmu pildīja pajūgi un uz malšanu sabraukušo saimnieku runas un stāsti.</p>
+
+<img class="article-image narrow" src="../assets/images/ozolantu_paris.jpg">
+
 
 </section>
 
 
 <section>
 <div class="time-period">1940 – 1952</div>
-<p>Tikai 1940. gadā Roberts Ozolants kļuva par pilntiesīgu dzirnavu īpašnieku. Pēc pavisam neilga laika jaunā vara viņam dzirnavas atņēma. Roberts Ozolants nu bija tikai melderis. Jaunie saimnieki par dzirnavu uzturēšanu neraizējās un, kad 1952. gadā vētras naktī dzirnavām tika nolauzti spārni, nekas vairs netika remontēts. Jumts kļuva caurs, iekšējās konstrukcijas puva.</p>
+<p>Tikai 1940. gadā Roberts Ozolants kļuva par pilntiesīgu dzirnavu īpašnieku. Pēc pavisam neilga laika, mainoties valsts iekārtai, īpašums tika atsavināts - jaunā vara dzirnavas atņēma. Roberts Ozolants nu bija tikai melderis. Padomju varas gados neviens par dzirnavu uzturēšanu neraizējās un, kad 1952. gadā vētras naktī dzirnavām tika nolauzti spārni, nekas vairs netika remontēts. Jumts kļuva caurs, iekšējās konstrukcijas puva.</p>
 </section>
 
 
@@ -69,17 +83,17 @@ Pēc vairāku gadu ilgas atjaunošanas dzirnavās atkal varēja malt graudus. Dz
 
 <div class="time-period">1985</div>
 
-<p>1980. gadu vidū toreizējā Burtnieku ciema padome nolēma dzirnavu ēku atjaunot un veidot tajās saietu namu, jeb mednieku pili.</p>
-<p>Atjaunošana sākās ar pilnīgu iekšējo koka konstrukciju nojaukšanu, jo tās nebija glābjamas. No jauna tika izveidoti pārsegumi, ierīkotas kāpnes, uzlikts jumts. Spārni netika atjaunoti.</p>
-<p>Šie būvdarbi līdz galam netika pabeigti. Tomēr, ja tie netiktu veikti, pašlaik no dzirnavām būtu saglabājušies tikai mūri.</p>
+<p>1980. gadu vidū toreizējā Burtnieku ciema padome nolēma dzirnavu ēku atjaunot un veidot tajā saietu namu, jeb mednieku pili.</p>
+<p>Atjaunošana sākās ar pilnīgu iekšējo koka konstrukciju nojaukšanu, jo tās vairs nebija glābjamas. No jauna tika izveidoti pārsegumi, ierīkotas kāpnes, uzlikts jumts. Spārni netika atjaunoti.</p>
+<p>Šie būvdarbi līdz galam netika pabeigti. Tomēr, ja tie netiktu veikti, pašlaik no dzirnavām būtu saglabājušās tikai mūru drupas.</p>
 
 </section>
 
 <section>
 <div class="time-period">1990 – ...</div>
 
-<p>Līdz ar Latvijas valsts neatkarības atjaunošanu, 1990. gadu sākumā Roberta Ozolanta meita Laima Perova atguva tēva dzirnavas dzimtas īpašumā.</p>
-<p>Ap 2000. gadu tika organizēts jumta seguma remonts. 2008. gadā tika nomainīti visi dzirnavu logi un mazās durvis. Uz vaļņa izbūvēta marga drošībai. 2020. gadā veikta pilnīga jumta nomaiņa.</p>
+<p>Līdz ar Latvijas valsts neatkarības atjaunošanu, 1990. gadu sākumā Roberta Ozolanta meita Laima Perova atguva tēva dzirnavas dzimtas īpašumā. Šobrīd dzirnavu īpašnieki ir Laimas bērni, Roberta Ozolanta mazbērni. Vējdzirnavu mantinieki savu iespēju robežās turpina uzturēt un saglabāt dzirnavas.</p>
+<p>Ap 2000. gadu tika organizēts jumta seguma remonts. 2008. gadā tika nomainīti visi dzirnavu logi un mazās durvis, uz vaļņa izbūvēta marga drošībai un sakārtota elektroapgāde. 2020. gadā veikta pilnīga jumta nomaiņa. Steidzami ir nepieciešams atjaunot laukakmeņu mūri, jo mūrējums kļuvis trausls un šuves birst. Aktuāli ir arī citi remontdarbi.</p>
 
 <img src="../assets/images/jumts.jpg">
 

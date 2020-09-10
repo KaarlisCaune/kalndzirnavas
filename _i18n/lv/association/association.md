@@ -1,20 +1,23 @@
-2020\. gada pavasarī nodibināta biedrība "Kalndzirnavas". Tās mērķis ir
+2020\. gada pavasarī nodibināta biedrība “Kalndzirnavas”. Tās mērķi ir atjaunot un saglabāt vējdzirnavu ēku kā kultūrainavas elementu, kā arī veidot “Kalndzirnavas” kā tikšanās un izziņas kultūrvietu.
 
-1. Atjaunot un saglabāt vējdzirnavu ēku kā kultūrainavas elementu;
-2. Veidot “Kalndzirnavas” kā tikšanās un izziņas kultūrvietu.
+Burtnieku novada pašvaldības rīkotā projektu konkursā biedrība guva atbalstu labiekārtotas skatu vietas izveidei. Pie dzirnavām izvietota informācija par dzirnavu vēsturi un apkārtējo ainavu.
+Tapusi arī Kalndzirnavu mājas lapa.
 
-## Nākotnes plāni
+<img class="article-image square" src="../assets/images/sols.jpg" alt="Sols pie dzirnavām">
 
-Dzirnavas ir iedvesmojošas daudzus māksliniekus - plenēru dalībniekus.
+Ceram, ka pie dzirnavām patīkamus mirkļus atradīs ikviens – pieturas punkts ekskursantu grupai, atelpa velosipēdistam, sakopta vieta gājējiem un nūjotājiem, skaists fotomirklis kāziniekiem, utt.
 
-Vasarās te varētu notikt semināri, pasākumi, un tagad tik populārās radošās darbnīcas. Pie dzirnavām labprāt piestāj ekskursantu grupas, kāzinieki, velosipēdisti, gājēji un visi ir priecīgi par lielisko panorāmu, kas paveras no Dzirnavu kalna uz Burtnieku ezeru.
-
-Mēs ceram, ka mums izdosies dzirnavas saglabāt un tās kļūs par aizvien zināmāku un iemīļotāku pasākumu un atpūtas vietu.
+Nākotnē esam iecerējuši ap dzirnavām veidot radošu un izzinošu vidi – vietu plenēriem, semināriem, radošām darbnīcām un ekskursijām.
+Esam atvērti sadarbības priekšlikumiem un idejām.
 
 ## Kontaktinformācija
+
+Adrese: Kalndzirnavas, Burtnieku pagasts, Burtnieku novads
+
+Telefona Nr.: +371 29391593
+
+Epasts: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki@gmail.com</a>
 
 Biedrība Kalndzirnavas
 
 Reģ. nr. 40008295938
-
-Epasts: <a href="mailto:kalndzirnavas@gmail.com">kalndzirnavas@gmail.com</a>

@@ -34,3 +34,13 @@ footer {
         opacity: 0.5;
     }
 }
+
+.article-image {
+    width: 100%;
+    &.square {
+        max-width: 600px;
+    }
+    &.narrow {
+        max-width: 400px;
+    }
+}
