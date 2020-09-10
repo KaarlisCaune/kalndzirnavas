@@ -1,4 +1,4 @@
-<p>Esošās mūra holandiešu tipa vējdzirnavas celtas 1814. gadā. Šis gada skaitlis bijis iekalts vēja rādītājā un uzrakstīts uz dzīvojamās mājas ārdurvīm. Par Burtnieku vējdzirnavu cēlājiem gan precīzu ziņu nav. Visdrīzāk Dzirnavu kalnā vējdzirnavas bijušas arī pirms esošajām mūra vējdzirnavām. Domājams, tās bija koka balststaba vējdzirnavas, kādas cēla attiecīgajā laikā Latvijas teritorijā</p>
+<p>Esošās mūra holandiešu tipa vējdzirnavas celtas 1814. gadā. Šis gada skaitlis bijis iekalts vēja rādītājā un uzrakstīts uz dzīvojamās mājas ārdurvīm. Par Burtnieku vējdzirnavu cēlājiem gan precīzu ziņu nav. Visdrīzāk Dzirnavu kalnā vējdzirnavas bijušas arī pirms esošajām mūra vējdzirnavām. Domājams, tās bija koka balststaba vējdzirnavas, kādas cēla attiecīgajā laikā Latvijas teritorijā.</p><br><br>
 
 <section>
 <div class="time-period">1738 – 1839</div>

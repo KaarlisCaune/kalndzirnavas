@@ -36,12 +36,12 @@ footer {
 }
 
 .article-image {
-    width: 100%;
+    max-width: 100%;
     &.square {
-        max-width: 600px;
+        width: 600px;
     }
     &.narrow {
-        max-width: 400px;
+        width: 400px;
     }
 }
 
@@ -55,6 +55,12 @@ footer {
         img {
             max-width: 100%;
             cursor: pointer;
+        }
+    }
+    @include respond(mobile) {
+        a {
+            width: 29%;
+            margin: 2%;
         }
     }
 }

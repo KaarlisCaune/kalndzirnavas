@@ -2,7 +2,8 @@
 .history-wrapper {
     margin-top: 3em;
     img {
-        max-width: 700px;
+        width: 700px;
+        max-width: 100%;
         display: block;
         margin-top: 1em;
         margin-bottom: 1em;
@@ -35,6 +36,22 @@
         }
         &:nth-of-type(1) {
             .time-period {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+    @include respond(mobile) {
+        section {
+            padding-left: 0;
+            .time-period {
+                margin-left: 0;
+                margin-top: 2em;
+                text-align: left;
+                position: static;
+                max-width: 100%;
+                background-color: transparent;
                 &::before {
                     display: none;
                 }
