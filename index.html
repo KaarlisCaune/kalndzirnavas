@@ -16,11 +16,11 @@ title: pages.home
 <h2 class="text-center">{% t home_page.photo_gallery %}</h2>
 
 <div class="photo-gallery">
-    {% for num in (1..12) %}
+    {% for num in (1..13) %}
         <a data-fslightbox href="{{ site.baseurl_root }}/assets/gallery/{{ forloop.index }}.jpg">
             <img src="{{ site.baseurl_root }}/assets/gallery/thumbs/{{ forloop.index }}.jpg">
         </a>
     {% endfor %}
 </div>
 
-<script src="js/fslightbox.js"></script>
+<script src="{{ site.baseurl_root }}/js/fslightbox.js"></script>

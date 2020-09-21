@@ -33,13 +33,11 @@
 
 <p>Šajā laika posmā Burtnieku pilsmuižas dzirnavās minēti šādi vārdi: melderis Miķelis Bērziņš, melderis Jānis Garklāvs, vēja dzirnavnieks no 1857. gada Ādams Lanģis, melderis no 1857. gada Jānis Dancis.</p>
 
-<img src="{{ site.baseurl_root }}/assets/images/1849.jpg">
-
 <p>Pirmā zināmā dzirnavu restaurācija notikusi 1849. gadā, to veicis vācu meistars Andreas Gustavs Freimanis. Par to bija rakstīts uz dzirnavu sijas, kura tika paglābta 80to gadu pārbūves laikā. Vēlāk būvmeistara Freimaņa mantinieki aizveda vēsturisko sijas fragmentu uz Vāciju, dzirnavās šobrīd ir uzraksta kopija.</p>
 
-<img class="article-image narrow" src="{{ site.baseurl_root }}/assets/images/freimanis.jpg" alt="Andreas Gustavs Freimanis">
+<img src="{{ site.baseurl_root }}/assets/images/1849.jpg">
 
-<p><i>Andreas Gustav Freimann 1803-1890</i></p>
+<p><i>Dzirnavu sijas fragmenta kopija / Andreas Gustav Freimann 1803–1890</i></p>
 
 </section>
 
@@ -56,6 +54,7 @@
 <p>Viņam bija jāsāk ar pamatīgu restaurāciju: jāliek jumts, spārni, jāveic iekšējie izbūves darbi. Viņam bija drosme to visu uzsākt, jo prasmes un interesi par dažādiem mehānismiem Roberts bija guvis jau jaunības gados, mācoties pie dažādiem meistariem un vadot pirmo kuļmašīnu Burtniekos. Pēc vairāku gadu ilgas atjaunošanas dzirnavās atkal varēja malt graudus. Dzirnavās bija divi ganģi - mala rupjus miltus un putraimus.</p>
 
 <img src="{{ site.baseurl_root }}/assets/images/1920.jpg">
+<p><i>Kalndzirnavas, ~1927. gads</i></p>
 
 <p>Dzirnavu vadīšana prasīja plašas zināšanas un meistarību. Melderim bija ne tikai jātiek galā ar malšanu – graudu pieņemšanu, vēja savaldīšanu, utt., bet arī pilnībā jāpārzina dzirnavu mehānismi, lai tos uzturētu ejošus un pie iespējas pilnveidotu. Roberts Ozolants nepieciešamās metāla detaļas kala pie mājām esošajā smēdē. Viņš pats prata asināt dzirnakmeņus un uzliet dzirnakmeņiem jaunu malšanas kārtu (masa tika vārīta dzīvojamās mājas virtuvē). Roberts pārzināja arī koka darbus. Milzu spēku prasīja jaunu spārnu izgatavošana un uzstādīšana.</p>
 
