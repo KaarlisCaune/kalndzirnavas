@@ -2,8 +2,8 @@ title: Kalndzirnavas
 email: kalndzirnavas@gmail.com
 description: Skatu vieta Kalndzirnavas
   
-baseurl: /kalndzirnavas
-url: ""
+baseurl: http://www.kalndzirnavas.lv/
+url: "www.kalndzirnavas.lv"
 
 plugins:
   - jekyll-multiple-languages-plugin
