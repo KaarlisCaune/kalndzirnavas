@@ -31,4 +31,4 @@ The static site is built in `_site` folder. Since the website is hosted on Githu
 
 `git subtree push --prefix _site origin gh-pages`
 
-For the site to be visible on Github pages, `baseurl` is set to `kalndzirnavas` right now. That won't be necessary when an actual domain is used.
+You can also run `./publish.sh` to push to the gh-pages branch.
