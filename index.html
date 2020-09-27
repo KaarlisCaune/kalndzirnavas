@@ -16,7 +16,7 @@ title: pages.home
 <h2 class="text-center">{% t home_page.photo_gallery %}</h2>
 
 <div class="photo-gallery">
-    {% for num in (1..13) %}
+    {% for num in (1..15) %}
         <a data-fslightbox href="{{ site.baseurl_root }}/assets/gallery/{{ forloop.index }}.jpg">
             <img src="{{ site.baseurl_root }}/assets/gallery/thumbs/{{ forloop.index }}.jpg">
         </a>

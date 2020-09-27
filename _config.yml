@@ -3,13 +3,14 @@ email: kalndzirnavas@gmail.com
 description: Skatu vieta Kalndzirnavas
   
 baseurl: ""
-url: "kalndzirnavas.lv"
+url: "https://kalndzirnavas.lv"
 
 plugins:
   - jekyll-multiple-languages-plugin
 
 exclude:
   - README.md
+  - publish.sh
 languages: ["lv", "en", "et"]
 exclude_from_localizations: ["assets", "css", "js", "README.md"]
 keep_files: ['CNAME']
