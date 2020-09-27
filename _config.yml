@@ -2,8 +2,8 @@ title: Kalndzirnavas
 email: kalndzirnavas@gmail.com
 description: Skatu vieta Kalndzirnavas
   
-baseurl: https://www.kalndzirnavas.lv
-url: "www.kalndzirnavas.lv"
+baseurl: ""
+url: "kalndzirnavas.lv"
 
 plugins:
   - jekyll-multiple-languages-plugin
@@ -12,3 +12,4 @@ exclude:
   - README.md
 languages: ["lv", "en", "et"]
 exclude_from_localizations: ["assets", "css", "js", "README.md"]
+keep_files: ['CNAME']

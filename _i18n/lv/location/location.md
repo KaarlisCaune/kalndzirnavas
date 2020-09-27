@@ -1,4 +1,4 @@
-“Kalndzirnavas” atrodas Vidzemē, Burtnieku pagastā, Dzirnavu kalnā (64m virs jūras līmeņa). 1,2 km attālumā atrodas [Burtnieku ezers](https://www.burtniekunovads.lv/public/lat/turisms/dabas_objekti/burtnieku_ezers1/) un Burtnieku centrs ar skaisto muižas parku.
+Kalndzirnavas atrodas Vidzemē, Burtnieku pagastā, Dzirnavu kalnā (64m virs jūras līmeņa). 1,2 km attālumā atrodas [Burtnieku ezers](https://www.burtniekunovads.lv/public/lat/turisms/dabas_objekti/burtnieku_ezers1/) un Burtnieku centrs ar skaisto muižas parku.
 
 
 <a href="https://www.google.com/maps/place/57%C2%B041'20.7%22N+25%C2%B015'33.5%22E/@57.6890833,25.2580319,584m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d57.6890813!4d25.2593008" target="_blank">Google Maps</a>
@@ -13,7 +13,7 @@
 
 ## Kontaktinformācija
 
-Adrese: Kalndzirnavas, Burtnieku pagasts, Burtnieku novads
+Adrese: "Kalndzirnavas", Burtnieku pagasts, Burtnieku novads
 
 Telefona Nr.: +371 29391593
 

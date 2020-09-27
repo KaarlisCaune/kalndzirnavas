@@ -1,4 +1,4 @@
-<p>Esošās mūra holandiešu tipa vējdzirnavas celtas 1814. gadā. Šis gada skaitlis bijis iekalts vēja rādītājā un uzrakstīts uz dzīvojamās mājas ārdurvīm. Par Burtnieku vējdzirnavu cēlājiem gan precīzu ziņu nav. Visdrīzāk Dzirnavu kalnā vējdzirnavas bijušas arī pirms esošajām mūra vējdzirnavām. Domājams, tās bija koka balststaba vējdzirnavas, kādas cēla attiecīgajā laikā Latvijas teritorijā.</p><br><br>
+<p>Vējdzirnavas Dzirnavu kalnā visdrīzāk bijušas arī pirms esošajām mūra vējdzirnavām. Domājams, tās bija koka balststaba vējdzirnavas, kādas cēla attiecīgajā laikā Latvijas teritorijā. Esošās mūra holandiešu tipa vējdzirnavas celtas 1814. gadā. Šis gada skaitlis bijis iekalts vēja rādītājā un uzrakstīts uz dzīvojamās mājas ārdurvīm. Par Burtnieku vējdzirnavu cēlājiem gan precīzu ziņu nav. </p><br><br>
 
 <section>
 <div class="time-period">1738 – 1839</div>
@@ -51,7 +51,7 @@
 
 <p><i>Roberts Ozolants 1890-1967</i></p>
 
-<p>Viņam bija jāsāk ar pamatīgu restaurāciju: jāliek jumts, spārni, jāveic iekšējie izbūves darbi. Viņam bija drosme to visu uzsākt, jo prasmes un interesi par dažādiem mehānismiem Roberts bija guvis jau jaunības gados, mācoties pie dažādiem meistariem un vadot pirmo kuļmašīnu Burtniekos. Pēc vairāku gadu ilgas atjaunošanas dzirnavās atkal varēja malt graudus. Dzirnavās bija divi ganģi - mala rupjus miltus un putraimus.</p>
+<p>Robertam bija jāsāk ar pamatīgu restaurāciju: jāliek jumts, spārni, jāveic iekšējie izbūves darbi. Viņam bija drosme to visu uzsākt, jo prasmes un interesi par dažādiem mehānismiem Roberts bija guvis jau jaunības gados, mācoties pie dažādiem meistariem un vadot pirmo kuļmašīnu Burtniekos. Pēc vairāku gadu ilgas atjaunošanas dzirnavās atkal varēja malt graudus. Dzirnavās bija divi ganģi - mala rupjus miltus un putraimus.</p>
 
 <img src="{{ site.baseurl_root }}/assets/images/1920.jpg">
 <p><i>Kalndzirnavas, ~1927. gads</i></p>
