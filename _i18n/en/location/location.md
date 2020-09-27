@@ -1,4 +1,4 @@
-“Kalndzirnavas” is located in Vidzeme, Burtnieki parish, Dzirnavas hill (64m above sea level). [Burtnieks lake](https://www.burtniekunovads.lv/public/lat/turisms/dabas_objekti/burtnieku_ezers1/) and Burtnieki town center with its beautiful manor park are 1,2 km away.
+“Kalndzirnavas” is located in Vidzeme, Burtnieki parish, on a hill 64m above sea level. [Lake Burtnieks](https://www.burtniekunovads.lv/public/lat/turisms/dabas_objekti/burtnieku_ezers1/) and Burtnieki town center with its beautiful manor park are 1,2 km away.
 
 
 <a href="https://www.google.com/maps/place/57%C2%B041'20.7%22N+25%C2%B015'33.5%22E/@57.6890833,25.2580319,584m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d57.6890813!4d25.2593008" target="_blank">Google Maps</a>
@@ -13,12 +13,11 @@
 
 ## Contact us
 
-Address: Kalndzirnavas, Burtnieku pagasts, Burtnieku novads
+Address: Kalndzirnavas, Burtnieku pagasts, Burtnieku novads, Latvia
 
-Phone nr.: +371 29391593
+Phone: +371 29391593
 
 Email: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki@gmail.com</a>
 
-Association Kalndzirnavas
-
-Reg. nr. 40008295938
+Association Kalndzirnavas<br />
+Reg. #: 40008295938
