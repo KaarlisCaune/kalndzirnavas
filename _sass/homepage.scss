@@ -60,3 +60,79 @@
         }
     }
 }
+
+.panorama-button {
+    border: 3px solid $accent;
+    color: $link-color;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 0.5em;
+    background: $white;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    transition: all 0.2s linear;
+    &:hover {
+        color: $link-hover-color;
+        background-color: $accent;
+    }
+    &:active {
+        outline: 0;
+    }
+}
+
+.panorama-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 9999;
+    &.visible {
+        display: block;
+    }
+    .close-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: rgba(35,35,35,.65);
+        right: 0;
+        top: 0;
+        position: absolute;
+        z-index: 9999;
+        cursor: pointer;
+        height: 45px;
+        width: 45px;
+        &:active {
+            outline: 0;
+        }
+    }
+}
+
+.pnlm-container {
+    background: none!important;
+}
+
+.pnlm-load-box p {
+    display: none!important;
+}
+
+.pnlm-load-box {
+    background: none!important;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.panorama-modal {
+    .pnlm-controls-container {
+        display: none;
+    }
+}

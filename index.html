@@ -7,6 +7,8 @@ title: pages.home
 
 {% translate_file home/home.md %}
 
+<button class="panorama-button" onclick="openPanorama()">{% t home_page.open_panorama %}</button>
+
 <div class="homepage-links">
     <a href="{% tl how_to_find %}" class="location"><span>{% t home_page.how_to_find_description %}</span></a>
     <a href="{% tl history %}" class="history"><span>{% t home_page.history_description %}</span></a>
@@ -24,3 +26,47 @@ title: pages.home
 </div>
 
 <script src="{{ site.baseurl_root }}/js/fslightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+
+
+<div class="panorama-modal" id="panoramaModal">
+    <button class="close-button" onclick="closePanorama()"><svg width="20px" height="20px" viewBox="0 0 24 24"><path class="fslightbox-svg-path" d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path></svg></button>
+    <div id="panorama"></div>
+</div>
+
+<script>
+    var imgPath = 'panorama';
+    var body = document.body;
+    var modal = document.getElementById("panoramaModal");
+    var panoramaElement;
+
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            closePanorama();
+        }
+    };
+    
+    if (/iphone|ipod|ipad/.test(window.navigator.userAgent.toLowerCase())) {
+        imgPath = imgPath + '_mobile';
+    }
+
+    function openPanorama() {
+        panoramaElement = pannellum.viewer('panorama', {
+            "type": "equirectangular",
+            "panorama": '{{ site.baseurl_root }}/assets/images/' + imgPath + '.jpg',
+            "autoLoad": true,
+            "autoRotate": -2,
+            "showZoomCtrl": false,
+        });
+        body.classList.add('overflow-hidden');
+        modal.classList.add('visible');
+    };
+
+    function closePanorama() {
+        body.classList.remove('overflow-hidden');
+        modal.classList.remove('visible');
+        panoramaElement.destroy();
+    }
+</script>
