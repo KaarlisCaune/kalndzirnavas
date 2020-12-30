@@ -1,4 +1,4 @@
-In the spring of 2020, the association "Kalndzirnavas" was founded. Its goals are to restore and preserve the windmill as a part of the cultural landscape and establish Kalndzirnavas as a site to meet and learn.
+In the spring of 2020, the association Kalndzirnavas was founded. Its goals are to restore and preserve the windmill as a part of the cultural landscape and establish Kalndzirnavas as a site to meet and learn.
 
 With support from the local municipality of Burtnieki, the association has been working on creating a sightseeing spot, installing tourism information signs, and develop a website.
 
