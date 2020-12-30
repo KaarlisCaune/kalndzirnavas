@@ -3,13 +3,25 @@
 Burtnieku novada pašvaldības rīkotā projektu konkursā biedrība guva atbalstu labiekārtotas skatu vietas izveidei. Pie dzirnavām izvietota informācija par dzirnavu vēsturi un apkārtējo ainavu.
 Tapusi arī biedrības mājas lapa.
 
-<img class="article-image square" src="{{ site.baseurl_root }}/assets/images/sols.jpg" alt="Sols pie dzirnavām">
-
 Ceram, ka pie vējdzirnavām patīkamus mirkļus atradīs ikviens – pieturas punkts ekskursantu grupai, atelpa velosipēdistam, sakopta vieta gājējiem un nūjotājiem, skaists fotomirklis kāzu dienā, u.tml.
 
 
 Nākotnē iecerēts ap vējdzirnavām veidot radošu un izzinošu vidi – vietu plenēriem, semināriem, radošām darbnīcām un ekskursijām.
 Esam atvērti sadarbības priekšlikumiem un idejām.
+
+<br>
+
+<video width="640" height="352" controls>
+    <source src="{{ site.baseurl_root }}/assets/videos/sienazitis.mp4" type="video/mp4">
+</video>
+
+<div class="photo-gallery">
+    {% for num in (1..5) %}
+        <a data-fslightbox href="{{ site.baseurl_root }}/assets/images/association/{{ forloop.index }}.jpg">
+            <img src="{{ site.baseurl_root }}/assets/images/association/thumbs/{{ forloop.index }}.jpg">
+        </a>
+    {% endfor %}
+</div>
 
 ## Kontaktinformācija
 
@@ -22,3 +34,5 @@ Epasts: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki
 Biedrība Kalndzirnavas
 
 Reģ. nr. 40008295938
+
+<script src="{{ site.baseurl_root }}/js/fslightbox.js"></script>
