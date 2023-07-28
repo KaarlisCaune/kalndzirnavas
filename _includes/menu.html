@@ -1,5 +1,6 @@
 <nav class="site-menu">
     <ul>
+        <li><a {% if page.layout == "post" %}class="active"{% endif %}{% if page.namespace == "blog" %}class="active"{% endif %}href="{% tl blog %}">{% t pages.blog %}</a></li>
         <li><a {% if page.namespace == "history" %}class="active"{% endif %}href="{% tl history %}">{% t pages.history %}</a></li>
         <li><a {% if page.namespace == "how_to_find" %}class="active"{% endif %}href="{% tl how_to_find %}">{% t pages.how_to_find %}</a></li>
         <li><a {% if page.namespace == "association" %}class="active"{% endif %}href="{% tl association %}">{% t pages.association %}</a></li>

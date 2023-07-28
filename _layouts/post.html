@@ -1,0 +1,18 @@
+---
+namespace: blog
+---
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xml:lang="{{site.lang}}" lang="{{site.lang}}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.date| date: "%d/%m/%Y" }}</p>
+        {{content}}
+        <script src="{{ site.baseurl_root }}/js/fslightbox.js"></script>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

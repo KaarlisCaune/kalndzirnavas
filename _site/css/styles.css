@@ -472,4 +472,21 @@ footer p {
   }
 }
 
+.blog-post-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.blog-post-list li {
+  border-bottom: 2px solid #e4d9c9;
+  padding: 2em 0;
+}
+.blog-post-list .date {
+  opacity: 0.5;
+  margin-top: 0;
+}
+.blog-post-list .heading {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=styles.css.map */

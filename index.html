@@ -15,6 +15,19 @@ title: pages.home
     <a href="{% tl association %}" class="association"><span>{% t home_page.association_description %}</span></a>
 </div>
 
+
+<h1>{% t pages.blog %}</h1>
+<ul class="blog-post-list">
+    {% for post in site.posts %}
+      <li>
+        <p class="date">{{ post.date| date: "%d/%m/%Y" }}</p>
+        <a href="{{ post.url }}" class="heading">{{ post.title }}</a>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Lasīt vairāk</a>
+      </li>
+    {% endfor %}
+</ul>
+
 <h2 class="text-center">{% t home_page.photo_gallery %}</h2>
 
 <div class="photo-gallery">
