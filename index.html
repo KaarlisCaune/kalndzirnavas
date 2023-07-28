@@ -30,15 +30,13 @@ title: pages.home
 
 <h2 class="text-center">{% t home_page.photo_gallery %}</h2>
 
-<div class="photo-gallery">
-    {% for num in (1..26) %}
-        <a data-fslightbox href="{{ site.baseurl_root }}/assets/gallery/{{ forloop.index }}.jpg">
-            <img src="{{ site.baseurl_root }}/assets/gallery/thumbs/{{ forloop.index }}.jpg">
-        </a>
-    {% endfor %}
-</div>
+{% 
+    include gallery.html 
+    images-amount="26"
+    prefix="assets/gallery/"
+    thumbs-prefix="assets/gallery/thumbs/"
+%}
 
-<script src="{{ site.baseurl_root }}/js/fslightbox.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
 

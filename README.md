@@ -32,3 +32,24 @@ The static site is built in `_site` folder. Since the website is hosted on Githu
 `git subtree push --prefix _site origin gh-pages`
 
 You can also run `./publish.sh` to push to the gh-pages branch.
+
+## Posts
+
+Add posts under _posts with the filename `YYYY-MM-DD-post-title.md`.
+
+Posts are excluded from translation.
+
+## Galleries
+
+For galleries, a full size image and 200x200px thumbnail is used.
+
+To add a gallery, use this snippet and make sure image filename ends with `...(index).jpg` (i.e. `photo-5.jpg`)
+
+```
+{% 
+    include gallery.html
+    images-amount="5"
+    prefix="assets/path-to-images/filename-without-index-and-extension"
+    thumbs-prefix="aassets/path-to-images/thumbs/filename-without-index-and-extension"
+%}
+```

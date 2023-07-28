@@ -14,10 +14,9 @@ Prieks par rosību ap dzirnavām un apkārtējās ainavas iedzīvināšanu ar sp
 
 Foto: Aivis Stračinskis
 
-<div class="photo-gallery">
-    {% for num in (1..18) %}
-        <a data-fslightbox href="{{ site.baseurl_root }}/assets/blog/fizkulture/fizkulture-{{ forloop.index }}.jpg">
-            <img src="{{ site.baseurl_root }}/assets/blog/fizkulture/thumbs/fizkulture-{{ forloop.index }}.jpg">
-        </a>
-    {% endfor %}
-</div>
+{% 
+    include gallery.html 
+    images-amount="18"
+    prefix="assets/blog/fizkulture/fizkulture-"
+    thumbs-prefix="assets/blog/fizkulture/thumbs/fizkulture-"
+%}
