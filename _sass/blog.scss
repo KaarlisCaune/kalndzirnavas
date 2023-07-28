@@ -1,0 +1,21 @@
+@import "colors";
+
+.blog-post-list {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+        border-bottom: 2px solid $accent;
+        padding: 2em 0;
+    }
+
+    .date {
+        opacity: 0.5;
+        margin-top: 0;
+    }
+
+    .heading {
+        font-weight: bold;
+        text-decoration: none;
+    }
+}

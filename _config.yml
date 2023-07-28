@@ -12,5 +12,5 @@ exclude:
   - README.md
   - publish.sh
 languages: ["lv", "en", "et"]
-exclude_from_localizations: ["assets", "css", "js", "README.md"]
+exclude_from_localizations: ["assets", "css", "js", "README.md", "_posts"]
 keep_files: ['CNAME']
