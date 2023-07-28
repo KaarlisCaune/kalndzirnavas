@@ -1,0 +1,13 @@
+{% if include.images-amount && include.prefix && include.thumbs-prefix %}
+
+<div class="photo-gallery">
+    {% for num in (1..include.images-amount) %}
+        <a data-fslightbox href="{{ site.baseurl_root }}/{{ include.prefix }}{{ forloop.index }}.jpg">
+            <img src="{{ site.baseurl_root }}/{{ include.thumbs-prefix }}{{ forloop.index }}.jpg">
+        </a>
+    {% endfor %}
+</div>
+
+<script src="{{ site.baseurl_root }}/js/fslightbox.js"></script>
+
+{% endif %}
