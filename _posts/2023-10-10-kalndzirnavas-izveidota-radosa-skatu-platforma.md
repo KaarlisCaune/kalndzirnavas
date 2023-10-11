@@ -10,7 +10,7 @@ Skatu platformā uz dzirnavu ēkas vaļņa ikviens ir aicināts:
 - skatīt un baudīt plašo Burtnieku āraines ainavu telpu;
 - uzzināt, kas ir ainava, kā arī iepazīt ainavas elementus: horizontu, plānus, formātus;
 - sajust noskaņu, iekadrēt un iemūžināt ainavu atmiņā, fotogrāfijā, skicē vai gleznā;
-- uzzināt par gravējumu veidiem senajos dzirnakmeņos un, iedvesmojoties no to dažādības, izveidot savu dzirnakmeni no dabas materiāliem. Dzirnakmeņu fotogrāfijas aicinām nosūtīt e-pastā – Kalndzirnavu tīmekļa vietnē tiks veidota dabas dzirnakmeņu virtuālā galerija.
+- uzzināt par gravējumu veidiem senajos dzirnakmeņos un, iedvesmojoties no to dažādības, izveidot savu dzirnakmeni no dabas materiāliem. Dzirnakmeņu fotogrāfijas aicinām nosūtīt e-pastā uz <a href="mailto:kalndzirnavas.burtnieki@gmail.com">kalndzirnavas.burtnieki@gmail.com</a> – Kalndzirnavu tīmekļa vietnē tiks veidota dabas dzirnakmeņu virtuālā galerija.
 
 Projekta „Radošas skatu platformas izveide Burtnieku pagasta Kalndzirnavās” ietvaros ir atjaunoti vējdzirnavu mūri un veikta dzirnavu lodziņu apdare. Ārējās kāpnes ir aprīkotas ar funkcionālu rokas balstu. Arī senais dzirnavu valnis ir labiekārtots – uzstādīti atbilstoša dizaina soli, informācijas stendi, skatu rāmis un solārais apgaismojums.
 
