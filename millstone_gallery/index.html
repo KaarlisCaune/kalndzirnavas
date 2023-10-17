@@ -10,3 +10,10 @@ permalink_et: /looduse-veskikivid/
 <h1>{% t pages.nature_millstone_gallery %}</h1>
 
 {% translate_file nature_millstone_gallery/nature-millstone-gallery.md %}
+
+{% 
+    include gallery.html 
+    images-amount="3"
+    prefix="assets/nature_millstones/"
+    thumbs-prefix="assets/nature_millstones/thumbs/"
+%}
