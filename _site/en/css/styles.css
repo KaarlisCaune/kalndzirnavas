@@ -5,7 +5,7 @@ html {
   font-size: 125%;
   -webkit-font-smoothing: antialiased;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   html {
     font-size: 100%;
   }
@@ -93,6 +93,23 @@ a:hover {
 
 header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0;
+}
+header .nav-languages {
+  display: flex;
+  width: 100%;
+  min-height: 4em;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px) {
+  header .nav-languages {
+    flex-direction: column;
+  }
 }
 header .logo {
   max-width: 300px;
@@ -101,7 +118,7 @@ header .logo {
 header .logo img {
   min-width: 300px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   header .logo {
     max-width: 200px;
   }
@@ -109,17 +126,19 @@ header .logo img {
     min-width: 200px;
   }
 }
-header .site-menu {
-  margin-top: auto;
-}
 header .site-menu ul {
   list-style-type: none;
   display: flex;
   margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
 }
 header .site-menu ul li {
   margin-left: 1em;
   margin-right: 1em;
+}
+header .site-menu ul li:first-child {
+  margin-left: 0;
 }
 header .site-menu ul li a {
   text-decoration: none;
@@ -134,7 +153,7 @@ header .site-menu ul li .active {
     padding-left: 0;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   header .site-menu ul {
     flex-direction: column;
     align-items: center;
@@ -146,16 +165,19 @@ header .site-menu ul li .active {
 }
 header .language-switch {
   margin-left: auto;
-  margin-top: auto;
 }
 header .language-switch ul {
   list-style-type: none;
   display: flex;
   margin-bottom: 0;
+  margin-top: 0;
 }
 header .language-switch ul li {
   margin-left: 0.5em;
   margin-right: 0.5em;
+}
+header .language-switch ul li:first-child {
+  margin-left: 0;
 }
 header .language-switch ul li a {
   text-decoration: none;
@@ -166,7 +188,7 @@ header .language-switch ul li .active {
   font-weight: bold;
   border-bottom: 3px solid #e4d9c9;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   header .language-switch ul {
     margin-top: 1em;
   }
@@ -211,6 +233,10 @@ main, header, footer {
   }
 }
 
+header {
+  padding-bottom: 0;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -245,7 +271,7 @@ footer p {
   max-width: 100%;
   cursor: pointer;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .photo-gallery a {
     width: 29%;
     margin: 2%;
@@ -310,8 +336,8 @@ footer p {
 .homepage-links a.history::before {
   background-image: url(../assets/images/history.jpg);
 }
-.homepage-links a.association::before {
-  background-image: url(../assets/images/association.jpg);
+.homepage-links a.millstone-gallery::before {
+  background-image: url(../assets/images/millstone-gallery.jpg);
 }
 .homepage-links a.location::before {
   background-image: url(../assets/images/location.jpg);
@@ -319,7 +345,7 @@ footer p {
 .homepage-links a span {
   z-index: 2;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .homepage-links {
     flex-direction: column;
   }
@@ -410,7 +436,7 @@ footer p {
   height: 600px;
   margin-top: 2em;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .google-map {
     height: 300px;
   }
@@ -455,7 +481,7 @@ footer p {
 .history-wrapper section:nth-of-type(1) .time-period::before {
   display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .history-wrapper section {
     padding-left: 0;
   }
