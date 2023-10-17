@@ -24,6 +24,10 @@ main, header, footer {
     }
 }
 
+header {
+    padding-bottom: 0;
+}
+
 main {
     flex: 1 0 auto;
 }

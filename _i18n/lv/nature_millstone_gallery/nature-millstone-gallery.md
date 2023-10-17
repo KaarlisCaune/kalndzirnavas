@@ -1,0 +1,1 @@
+Dabas dzirnakmeņu galerija

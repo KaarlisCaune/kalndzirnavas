@@ -1,22 +1,22 @@
 <header>
     <a class="logo" href="{{ site.baseurl_root }}{% if site.lang == 'lv' %}/{% else %}/{{site.lang}}/{% endif %}"><img src="{{ site.baseurl_root }}/assets/logo.svg" alt="Kalndzirnavas"></a>
-
-    {% include menu.html %}
-
-    <nav class="language-switch">
-        {% if page.namespace %}
-        <ul>
-            <li><a {% if site.lang == "lv" %}class="active"{% endif %} href="{% tl {{ page.namespace }} lv %}" hreflang="lv" lang="lv">{% t langs.lv %}</a></li>
-            <li><a {% if site.lang == "en" %}class="active"{% endif %} href="{% tl {{ page.namespace }} en %}" hreflang="en" lang="en">{% t langs.en %}</a></li>
-            <li><a {% if site.lang == "et" %}class="active"{% endif %} href="{% tl {{ page.namespace }} et %}" hreflang="et" lang="et">{% t langs.et %}</a></li>
-        </ul>
-        {% else %}
-        <ul>
-            <li><a {% if site.lang == "lv" %}class="active"{% endif %} href="{{ site.baseurl_root }}/" hreflang="lv" lang="lv">{% t langs.lv %}</a></li>
-            <li><a {% if site.lang == "en" %}class="active"{% endif %} href="{{ site.baseurl_root }}/en/" hreflang="en" lang="en">{% t langs.en %}</a></li>
-            <li><a {% if site.lang == "et" %}class="active"{% endif %} href="{{ site.baseurl_root }}/et/" hreflang="et" lang="et">{% t langs.et %}</a></li>
-            {% endif %}
-        </ul>
-    </nav>
+    <section class="nav-languages">
+        {% include menu.html %}
+        <nav class="language-switch">
+            {% if page.namespace %}
+            <ul>
+                <li><a {% if site.lang == "lv" %}class="active"{% endif %} href="{% tl {{ page.namespace }} lv %}" hreflang="lv" lang="lv">{% t langs.lv %}</a></li>
+                <li><a {% if site.lang == "en" %}class="active"{% endif %} href="{% tl {{ page.namespace }} en %}" hreflang="en" lang="en">{% t langs.en %}</a></li>
+                <li><a {% if site.lang == "et" %}class="active"{% endif %} href="{% tl {{ page.namespace }} et %}" hreflang="et" lang="et">{% t langs.et %}</a></li>
+            </ul>
+            {% else %}
+            <ul>
+                <li><a {% if site.lang == "lv" %}class="active"{% endif %} href="{{ site.baseurl_root }}/" hreflang="lv" lang="lv">{% t langs.lv %}</a></li>
+                <li><a {% if site.lang == "en" %}class="active"{% endif %} href="{{ site.baseurl_root }}/en/" hreflang="en" lang="en">{% t langs.en %}</a></li>
+                <li><a {% if site.lang == "et" %}class="active"{% endif %} href="{{ site.baseurl_root }}/et/" hreflang="et" lang="et">{% t langs.et %}</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </section>
 
 </header>
