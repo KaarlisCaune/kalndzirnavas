@@ -11,9 +11,27 @@ permalink_et: /looduse-veskikivid/
 
 {% translate_file nature_millstone_gallery/nature-millstone-gallery.md %}
 
+<section class="millstones">
+    {% for millstone in site.data.millstones %}
+        <div class="millstone-item">
+            <article>
+                <p>{% t millstone_gallery.author %}: <b>{{ millstone.author }} </b></p>
+            </article>
+            <div class="scale-container">
+                <img
+            src="{{ site.baseurl_root }}/assets/{{ millstone.imagePath }}"
+          />
+        </div>
+        
+      </div>
+    {% endfor %}
+</section>
+
 {% 
     include gallery.html 
     images-amount="3"
     prefix="assets/nature_millstones/"
     thumbs-prefix="assets/nature_millstones/thumbs/"
 %}
+
+<script src="../scripts/millstones.js"></script>

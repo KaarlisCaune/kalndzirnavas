@@ -1,0 +1,166 @@
+@import "breakpoints";
+
+.millstones {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 3em;
+  background: #022315;
+  background-image: url(../assets/images/millstone-gallery-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 20em;
+  overflow: hidden;
+  @include respond(tablet) {
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
+}
+
+.millstone-item {
+  width: 65%;
+  aspect-ratio: 1 / 1;
+  display: block;
+  margin-bottom: -20%;
+
+  &:nth-child(odd) {
+    margin-left: auto;
+    article {
+      left: -15em;
+    }
+  }
+
+  &:nth-child(even) {
+    margin-right: auto;
+    article {
+      right: -15em;
+    }
+  }
+
+  @include respond(tablet) {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    display: block;
+    margin-bottom: 2em;
+
+    &:nth-child(odd) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &:nth-child(even) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  position: relative;
+  .scale-container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: block;
+    transition: transform 2s ease;
+  }
+
+  img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    animation: 100s linear infinite rotate;
+    -webkit-mask-image: radial-gradient(
+      ellipse 90% 90% at 50% 50%,
+      black 40%,
+      transparent 50%
+    );
+    mask-image: radial-gradient(
+      ellipse 90% 90% at 50% 50%,
+      black 40%,
+      transparent 50%
+    );
+  }
+
+  article {
+    display: block;
+    max-width: 15em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 2s linear;
+    p {
+      color: white;
+    }
+
+    @include respond(tablet) {
+      width: 100%;
+      max-width: 100%;
+      position: static;
+      text-align: center;
+      transform: none;
+      opacity: 1;
+    }
+  }
+
+  &[data-visible="0"] {
+    .scale-container {
+      transform: scale(0.5);
+    }
+    article {
+      opacity: 0;
+      @include respond(tablet) {
+        opacity: 1;
+      }
+    }
+  }
+
+  &[data-visible="25"] {
+    .scale-container {
+      transform: scale(0.75);
+    }
+    article {
+      opacity: 0;
+      @include respond(tablet) {
+        opacity: 1;
+      }
+    }
+  }
+
+  &[data-visible="50"] {
+    .scale-container {
+      transform: scale(0.8);
+    }
+    article {
+      opacity: 1;
+    }
+  }
+
+  &[data-visible="75"] {
+    .scale-container {
+      transform: scale(1);
+    }
+    article {
+      opacity: 1;
+    }
+  }
+
+  &[data-visible="100"] {
+    .scale-container {
+      transform: scale(1);
+    }
+    article {
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
