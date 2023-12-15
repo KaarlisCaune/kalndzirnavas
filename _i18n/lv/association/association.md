@@ -1,9 +1,18 @@
-2020\. gada pavasarī nodibināta biedrība Kalndzirnavas. Tās mērķi ir atjaunot un saglabāt vējdzirnavu ēku kā kultūrainavas elementu, kā arī veidot to kā tikšanās un izziņas kultūrvietu.
+## 2020
+Pavasarī nodibināta biedrība Kalndzirnavas. Tās mērķi ir atjaunot un saglabāt vējdzirnavu ēku kā kultūrainavas elementu, kā arī veidot to kā tikšanās un izziņas kultūrvietu.
 
 Burtnieku novada pašvaldības rīkotā projektu konkursā biedrība guva atbalstu labiekārtotas skatu vietas izveidei. Pie dzirnavām izvietota informācija par dzirnavu vēsturi un apkārtējo ainavu.
 Tapusi arī biedrības mājas lapa.
 
-2023\. gadā uzsākta Radošas skatu platformas izveide. <a href="{% post_url 2023-07-28-uzsakti-remontdarbi %}">Lasīt vairāk</a>
+## 2022
+Lauku atbalsta dienests apstiprināja biedrības sagatavoto projekta pieteikumu par "Radošas skatu platformas izveidi Burtnieku pagasta "Kalndzirnavās""
+
+## 2023
+Pavasarī pie Kalndzirnavām norisinājās Valmieras novada pašvaldības organizētā skriešanas, nūjošanas un velobraukšanas seriāla “Fiz-Kul-Tūre” posms. <a href="{% post_url 2023-05-18-fiz-kul-ture-kalndzirnavas %}">Lasīt vairāk</a>
+
+Vasarā uzsākta Radošas skatu platformas izveide, dzirnavu mūru atjaunošana. <a href="{% post_url 2023-07-28-uzsakti-remontdarbi %}">Lasīt vairāk</a>
+
+Līdz ar rudeni noslēdzās darbi pie Radošas skatu platformas izveides. <a href="{% post_url 2023-10-10-kalndzirnavas-izveidota-radosa-skatu-platforma %}">Lasīt vairāk</a>
 
 Ceram, ka pie vējdzirnavām patīkamus mirkļus atradīs ikviens – pieturas punkts ekskursantu grupai, atelpa velosipēdistam, sakopta vieta gājējiem un nūjotājiem, skaists fotomirklis kāzu dienā, u.tml.
 
