@@ -19,7 +19,7 @@ Būvdarbus, saskaņā ar tirgus izpētes rezultātiem, veic būvkomersants SIA �
 
 Projekta kopējās attiecināmās izmaksas ir 29332,25 EUR, no tiem 26399,03 EUR LEADER finansējums un 2933,22 EUR Valmieras novada pašvaldības līdzfinansējums. Projektu plānots īstenot līdz 2023. gada novembrim.
 
-**Biedrība Kalndzirnavas**
+Projektu realizē biedrība Kalndzirnavas.
 
 <a href="http://ec.europa.eu/agriculture/rural-development-2014-2020/index_lv.htm" target="_blank">Vairāk informācijas par Eiropas Lauksaimniecības fondu lauku attīstībai pieejams Eiropas Komisijas tīmekļa vietnē</a>
 
