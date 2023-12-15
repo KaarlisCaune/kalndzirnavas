@@ -16,6 +16,10 @@ Projekta „Radošas skatu platformas izveide Burtnieku pagasta Kalndzirnavās�
 
 Projekta Nr. 22-09-AL29-A019.2201-000004 kopējās attiecināmās izmaksas ir 29332,25 EUR – no tiem 26399,03 EUR ir ELFLA finansējums, un 2933,22 EUR – Valmieras novada pašvaldības līdzfinansējums.
 
+<a href="http://ec.europa.eu/agriculture/rural-development-2014-2020/index_lv.htm" target="_blank">Vairāk informācijas par Eiropas Lauksaimniecības fondu lauku attīstībai pieejams Eiropas Komisijas tīmekļa vietnē</a>
+
+<img src="{{ site.baseurl_root }}/assets/images/association/elfla_leader_logo.png" alt="Nacionālais attīstības plāns | Eiropas Lauksaimniecības fonds lauku attīstībai | LEADER" style="max-width: 100%">
+
 {% 
     include gallery.html 
     images-amount="7"
