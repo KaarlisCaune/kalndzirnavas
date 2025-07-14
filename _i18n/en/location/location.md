@@ -15,7 +15,7 @@
 
 Address: Kalndzirnavas, Burtnieku pagasts, Burtnieku novads, Latvia
 
-Phone: +371 29391593
+Phone: +371 28358391
 
 Email: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki@gmail.com</a>
 

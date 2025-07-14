@@ -15,7 +15,7 @@ Kalndzirnavas asub Vidzeme, Burtnieki vallas Dzirnavas mäel (64m üle merepinna
 
 Aadress: Kalndzirnavas, Burtnieku pagasts, Burtnieku novads
 
-Telefon: +371 29391593
+Telefon: +371 28358391
 
 Email: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki@gmail.com</a>
 

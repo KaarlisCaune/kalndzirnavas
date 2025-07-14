@@ -15,7 +15,7 @@ Burtnieku vējdzirnavas atrodas Vidzemē, Burtnieku pagastā, Dzirnavu kalnā (6
 
 Adrese: "Kalndzirnavas", Burtnieku pagasts, Burtnieku novads
 
-Telefona Nr.: +371 29391593
+Telefona Nr.: +371 28358391
 
 Epasts: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki@gmail.com</a>
 
