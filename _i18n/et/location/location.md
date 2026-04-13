@@ -19,6 +19,8 @@ Telefon: +371 28358391
 
 Email: <a href="mailto:kalndzirnavasburtnieki@gmail.com">kalndzirnavasburtnieki@gmail.com</a>
 
+<a href="https://www.facebook.com/kalndzirnavas">facebook.com/kalndzirnavas</a>
+
 Ühing Kalndzirnavas
 
 Registrikood: 40008295938
