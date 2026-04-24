@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Kalndzirnavās tiek realizēts projekts "Ap dzirnavām pa saules ceļu"
+title:  Kalndzirnavās tiek realizēts projekts "Ap dzirnavām pa Saules ceļu"
 excerpt_separator: <!--more-->
 ---
 
 
-Šovasar vējdzirnavās tiks realizēts projekts “Ap dzirnavām pa saules ceļu”. Projekta mērķis ir uzlabot vides drošību skatu platformai uz dzirnavu vaļņa un radoši izmantot vēsturisko vējdzirnavu ēku un plašo panorāmas skatu, izveidojot nebijušu telpisku modeli, kurā skaidrot Saules kustību pie debesīm un gadalaiku maiņas, kā arī kā gadalaiku maiņu un saulgriežus atzīmēja un godāja mūsu senči.
+Šovasar vējdzirnavās tiks realizēts projekts “Ap dzirnavām pa Saules ceļu”. Projekta mērķis ir uzlabot vides drošību skatu platformai uz dzirnavu vaļņa un radoši izmantot vēsturisko vējdzirnavu ēku un plašo panorāmas skatu, izveidojot nebijušu telpisku modeli, kurā skaidrot Saules kustību pie debesīm un gadalaiku maiņas, kā arī kā gadalaiku maiņu un saulgriežus atzīmēja un godāja mūsu senči.
 
 <!--more-->
 
