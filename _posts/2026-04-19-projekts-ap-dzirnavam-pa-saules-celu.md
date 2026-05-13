@@ -17,11 +17,18 @@ Lai sasniegtu projekta mērķi paredzēts:
 
 Būvdarbus, saskaņā ar tirgus izpētes rezultātiem, veic būvkomersants SIA „Ekers”.
 
-Projekta kopējās attiecināmās izmaksas ir 24771,34 EUR, no tiem 22294,20 EUR LEADER finansējums. Projektu plānots īstenot 2026. gada vasarā.
+Projekta kopējās attiecināmās izmaksas ir 24771,34 EUR, no tiem 22294,20 EUR LEADER finansējums un 2430,00 EUR Valmieras novada pašvaldības finansējums. Projektu plānots īstenot 2026. gada vasarā.
 
 Projektu realizē biedrība Kalndzirnavas.
 
-<img src="/assets/blog/projekts-ap-dzirnavam-pa-saules-celu/es-nap-lad-2021-2027.png" style="max-width: 100%" >
+<br>
+
+<div style="display: flex; height: 200px; gap: 24px; overflow: hidden;">
+    <img src="/assets/blog/projekts-ap-dzirnavam-pa-saules-celu/es-nap-lad-2021-2027.png" style="height: 100%; width: auto; object-fit: contain; flex-shrink: 1; min-width: 0;" >
+    <img src="/assets/blog/projekts-ap-dzirnavam-pa-saules-celu/Simbols_Izaugsmes_medala_melns.png" style="height: 100%; width: auto; object-fit: contain; flex-shrink: 1; min-width: 0;">
+</div>
+
+<br>
 
 {% 
     include gallery.html 
