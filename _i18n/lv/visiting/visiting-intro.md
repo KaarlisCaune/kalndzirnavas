@@ -1,0 +1,1 @@
+Pie vējdzirnavām patīkamus mirkļus atradīs ikviens – pieturas punkts ekskursantu grupai, atelpa velosipēdistam, sakopta vieta gājējiem un nūjotājiem, skaists fotomirklis kāzu dienā, u.tml.

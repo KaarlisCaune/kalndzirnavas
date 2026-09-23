@@ -98,3 +98,12 @@ pārbūves laikā pagājušā gadsimta astoņdesmitajos gados. Vēlāk būvmeist
 <img src="{{ site.baseurl_root }}/assets/images/jumts.jpg">
 
 </section>
+
+<section>
+<div class="time-period">2020 - ...</div>
+
+<p>Pavasarī nodibināta <a href="/biedriba/">biedrība Kalndzirnavas</a>. Tās mērķi ir atjaunot un saglabāt vējdzirnavu ēku kā
+kultūrainavas elementu, kā arī veidot to kā tikšanās un izziņas kultūrvietu.</p>
+
+
+</section>

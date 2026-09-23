@@ -1,0 +1,207 @@
+@import "breakpoints";
+@import "colors";
+
+.sun-path-heading {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 2em 8em 2em;
+  box-sizing: border-box;
+
+  @include respond(tablet) {
+    padding-bottom: 0;
+  }
+
+  h1 {
+    max-width: 700px;
+  }
+
+  p {
+    max-width: 700px;
+  }
+}
+
+.sun-path-container {
+  display: flex;
+
+  .content {
+    box-sizing: border-box;
+    padding: 4em;
+
+    @include respond(tablet) {
+      padding: 2em;
+    }
+
+    section {
+      margin-bottom: 7em;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .divider {
+      max-width: 510px;
+      margin: 2em auto 0 auto;
+      display: block;
+    }
+
+    aside {
+      border-left: 6px solid $accent;
+      padding-left: 1em;
+      margin: 2em 0 2em 0;
+    }
+
+    .leading-icon {
+      display: flex;
+      gap: 1em;
+      align-items: center;
+      img {
+        width: 30px;
+        opacity: 0.3;
+      }
+    }
+
+    .sun-path-button {
+      border: 3px solid $accent;
+      color: $link-color;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 0;
+      padding: 0.5em;
+      background: $white;
+      cursor: pointer;
+      margin-top: 1em;
+      margin-bottom: 2em;
+      transition: all 0.2s linear;
+      &:hover {
+        color: $link-hover-color;
+        background-color: $accent;
+      }
+      &:active {
+        outline: 0;
+      }
+    }
+
+    .open-viz {
+      display: none;
+      @include respond(tablet) {
+        display: block;
+        margin-top: 2em;
+      }
+    }
+
+    .visible-desktop {
+      @include respond(tablet) {
+        display: none;
+      }
+    }
+
+    .visible-mobile {
+      display: none;
+      @include respond(tablet) {
+        display: block;
+      }
+    }
+  }
+
+  #app {
+    width: 50vw;
+    min-width: 50vw;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    @include respond(tablet) {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      visibility: hidden;
+      pointer-events: none;
+
+      &.is-open {
+        visibility: visible;
+        pointer-events: all;
+      }
+    }
+  }
+
+  .close-viz {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+    pointer-events: none;
+
+    @include respond(tablet) {
+      display: flex;
+      pointer-events: all;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  canvas {
+    display: block;
+  }
+  #controls {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #222;
+
+    @include respond(tablet) {
+      top: 60px;
+      width: calc(100% - 32px);
+      box-sizing: border-box;
+    }
+
+    input {
+      accent-color: black;
+    }
+  }
+
+  .slider-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .slider-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+  .slider-row input[type="range"] {
+    width: 100%;
+  }
+  .slider-bounds {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #666;
+  }
+}
