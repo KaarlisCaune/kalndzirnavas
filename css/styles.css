@@ -844,6 +844,7 @@ footer p {
   border: none;
   background: transparent;
   font-size: 16px;
+  color: black;
   cursor: pointer;
   display: none;
   pointer-events: none;
