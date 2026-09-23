@@ -40,9 +40,9 @@
     <section class="nav-languages">
         <nav class="site-menu">
     <ul>
+        <li><a href="/en/visit-us/">Visit us</a></li>
         <li><a href="/en/news/">News</a></li>
         <li><a href="/en/history/">History</a></li>
-        <li><a href="/en/location/">Location</a></li>
         <li><a href="/en/association/">Association</a></li>
         <li><a href="/en/nature-millstone-gallery/">Nature millstone gallery</a></li>
     </ul>
@@ -61,7 +61,286 @@
 
 </header>
     <main>
-        <h1>Path of the sun</h1>
+        <div class="sun-path-heading">
+  <h1>Path of the sun</h1>
+  <p>
+    Uz vējdzirnavu vaļņa atrodami stendi un marķējums, kas ļaus iepazīties ar
+    Saules ritējumu debesīs dažādās gadskārtās. Šeit esiet aicināti to izpētīt
+    ar interaktīvu Saules simulāciju.
+  </p>
+</div>
+
+<style>
+  main {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    min-height: 100vh;
+    height: 100%;
+    padding: 0;
+  }
+</style>
+
+<div class="sun-path-container">
+  <div id="app">
+    <button onclick="closeViz()" class="close-viz">
+      Aizvērt<img src="/assets/sun_path/close.svg" />
+    </button>
+    <div id="controls">
+      <div class="slider-row">
+        <div class="slider-header">
+          <label for="date-slider">Datums</label>
+          <span id="date-label"></span>
+        </div>
+        <input type="range" id="date-slider" min="0" max="100" step="0.1" />
+        <div class="slider-bounds">
+          <span>Jan 1</span>
+          <span>Dec 31</span>
+        </div>
+      </div>
+      <div class="slider-row">
+        <div class="slider-header">
+          <label for="time-slider">Laiks</label>
+          <span id="time-label"></span>
+        </div>
+        <input type="range" id="time-slider" min="0" max="100" step="0.1" />
+        <div class="slider-bounds">
+          <span id="sunrise-label"></span>
+          <span id="sunset-label"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="content">
+    <section>
+      <p class="visible-desktop">
+        <i
+          >Pa kreisi atrodama telpiska vizualizācija Saules ceļam. Aicinam
+          izmēģināt mainīt datumu, laiku un skatīšanās leņķi, vērojot gaismas un
+          ēnas izmaiņas uz vējdzirnavu "saules pulksteņa".</i
+        >
+      </p>
+
+      <p class="visible-mobile">
+        <i
+          >Nospiežot 3D vizualizācijas pogu gadskārtu aprakstos, parādīsies
+          telpiska vizualizācija Saules ceļam. Aicinam izmēģināt mainīt datumu,
+          laiku un skatīšanās leņķi, vērojot gaismas un ēnas izmaiņas uz
+          vējdzirnavu "saules pulksteņa".</i
+        >
+      </p>
+    </section>
+    <section id="winter-solstice">
+      <h1>Ziemas saulgrieži</h1>
+      <img src="/assets/sun_path/winter.svg" class="divider" />
+      <button onclick="openViz()" class="open-viz sun-path-button">
+        Atver 3D vizualizāciju!
+      </button>
+      <p>Ziemā Saules ceļš debesīs ir viszemākais un visīsākais.</p>
+      <p>
+        Ziemassvētkos diena ir visīsākā un nakts visgarākā, pēc Ziemassvētkiem
+        dienasgaismas ilgums atkal pieaug.
+      </p>
+      <p>
+        Centrālais rituāls bija bluķa vilkšana, kas atdarināja Saules kustību
+        debesjumā. Bluķis simbolizēja aizvadītā gada neveiksmes. Tā
+        sadedzināšana – attīrīšanos un jaunu sākumu.
+      </p>
+
+      <h2>Ziemassvētki</h2>
+
+      <aside>
+        <p>
+          <i>
+            Ziemas svētku trīs bāliņi,<br />
+            Darīsim alutiņu:<br />
+            Īsas dienas, garas naktis,<br />
+            Nevarēja sagulēt<br />
+          </i>
+        </p>
+      </aside>
+
+      <p class="leading-icon">
+        <img src="/assets/sun_path/feet.svg" /> Ja atrodies uz vējdzirnavu
+        vaļņa, seko līnijai ar sniegpārslas simbolu – iziesi Saules ceļu no
+        lēkta līdz rietam Ziemassvētkos!
+      </p>
+      <p class="leading-icon">
+        <img src="/assets/sun_path/sun.svg" /> Vizualizācijā ieskaties, cik zems
+        ir Saules ceļš. Tā knapi paceļas virs horizonta.
+      </p>
+    </section>
+
+    <section id="spring-equinox">
+      <h1>Pavasara saulstāvji</h1>
+      <img src="/assets/sun_path/spring.svg" class="divider" />
+      <button onclick="openViz()" class="open-viz sun-path-button">
+        Atver 3D vizualizāciju!
+      </button>
+      <p>
+        Pavasarī Saule pārvietojas pie debess vidējā augstumā. Zeme saņem vidēju
+        siltuma un gaismas daudzumu.
+      </p>
+      <p>
+        Pavasara saulstāvjos dienas ilgums ir vienāds ar nakts ilgumu. Cik gara
+        ir diena un nakts?
+      </p>
+
+      <h3>Lielā diena</h3>
+
+      <aside>
+        <p>
+          <i>
+            Lielas dienas rītiņā<br />
+            Agri gāju šūpoties,<br />
+            Lai redzēju koku galus<br />
+            Zelta Sauli margojam
+          </i>
+        </p>
+      </aside>
+
+      <p class="leading-icon">
+        <img src="/assets/sun_path/feet.svg" /> Ja atrodies uz vējdzirnavu
+        vaļņa, seko līnijai ar pumpura simbolu – iziesi Saules ceļu no lēkta
+        līdz rietam pavasara saulstāvjos!
+      </p>
+      <p class="leading-icon">
+        <img src="/assets/sun_path/sun.svg" /> Pamēģini vizualizācijā izmainīt
+        datumu no marta uz aprīli. Ēnas "lēkāšana" nav kļūda - šajā laikā mēs
+        pagriežam pulksteņus.
+      </p>
+    </section>
+
+    <section id="summer-solstice">
+      <h1>Vasaras Saulgrieži</h1>
+      <img src="/assets/sun_path/summer.svg" class="divider" />
+      <button onclick="openViz()" class="open-viz sun-path-button">
+        Atver 3D vizualizāciju!
+      </button>
+      <p>Vasarā Saules ceļš debesīs ir visaugstākais un visgarākais.</p>
+      <p>
+        Vasaras saulgriežos Burtniekos ir viena no garākajām dienām Latvijā, jo
+        esam Latvijas ziemeļu daļā. Dienas ilgums ir vairāk nekā 18 stundas. Cik
+        gara ir nakts?
+      </p>
+
+      <h2>Jāņi</h2>
+
+      <aside>
+        <p>
+          <i>
+            Dziedat, meitas, Jāņunakti,<br />
+            Neba gara Jāņu nakts:<br />
+            Vienu malu saul aizgāja,<br />
+            Otru ausa gaisumiņa.
+          </i>
+        </p>
+      </aside>
+
+      <p class="leading-icon">
+        <img src="/assets/sun_path/feet.svg" /> Ja atrodies uz vējdzirnavu
+        vaļņa, seko līnijai ar puķu simbolu – iziesi Saules ceļu no lēkta līdz
+        rietam Jāņos!
+      </p>
+      <p class="leading-icon">
+        <img src="/assets/sun_path/sun.svg" /> Vizualizācijā ieskaties, cik īsas
+        ir ēnas un cik garu ceļu noiet Saule!
+      </p>
+    </section>
+
+    <section id="autumn-equinox">
+      <h1>Rudens saulstāvji</h1>
+      <img src="/assets/sun_path/autumn.svg" class="divider" />
+      <button onclick="openViz()" class="open-viz sun-path-button">
+        Atver 3D vizualizāciju!
+      </button>
+      <p>
+        Rudenī Saule pārvietojas pie debess vidējā augstumā. Zeme saņem vidēju
+        siltuma un gaismas daudzumu.
+      </p>
+      <p>
+        Rudens saulstāvjos dienas ilgums ir vienāds ar nakts ilgumu. Cik gara ir
+        diena un nakts?
+      </p>
+
+      <h3>Miķeļi</h3>
+
+      <aside>
+        <p>
+          <i>
+            Miķelim gaili kāvu<br />
+            Deviņiemi cekuliem,<br />
+            Lai tas manu jaunu gadu<br />
+            Rudzus miežus audzināja
+          </i>
+        </p>
+      </aside>
+
+      <p class="leading-icon">
+        <img src="/assets/sun_path/feet.svg" /> Ja atrodies uz vējdzirnavu
+        vaļņa, seko līnijai ar rudens lapas simbolu – iziesi Saules ceļu no
+        lēkta līdz rietam rudens saulstāvjos!
+      </p>
+      <p class="leading-icon">
+        <img src="/assets/sun_path/sun.svg" /> Pamēģini vizualizācijā izmainīt
+        datumu oktobra beigās. Ēnas "lēkāšana" nav kļūda - šajā laikā mēs
+        pagriežam pulksteņus.
+      </p>
+    </section>
+  </section>
+</div>
+
+<script type="module" src="/assets/js/dzirnavas.js"></script>
+
+<script type="module">
+  const language = "en";
+  window.SunViz.setLocale(language);
+</script>
+
+<script>
+  const vizElement = document.getElementById("app");
+
+  function openViz() {
+    vizElement.classList.add("is-open");
+  }
+
+  function closeViz() {
+    vizElement.classList.remove("is-open");
+  }
+
+  (function () {
+    var seasonIds = [
+      "winter-solstice",
+      "spring-equinox",
+      "summer-solstice",
+      "autumn-equinox",
+    ];
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            window.SunViz.goToSeason(entry.target.id);
+          }
+        });
+      },
+      {
+        // Fires when a section crosses the vertical center of the viewport
+        // (rather than as soon as any sliver of it appears at the bottom edge).
+        rootMargin: "-50% 0px -50% 0px",
+        threshold: 0,
+      },
+    );
+
+    seasonIds.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) {
+        observer.observe(el);
+      }
+    });
+  })();
+</script>
+
     </main>
     <footer>
     <p>Kalndzirnavas 2026</p>
